@@ -17,7 +17,7 @@
 
 /* Header */
 
-.header {
+.navbar-header {
     background-color: #ADD8E6;
     padding: 15px;
 
@@ -30,7 +30,6 @@
     margin: 0 auto;
     width: 60%;
     max-width: 1080px;
-   
 }
 
 /* Navbar Logo */
@@ -57,8 +56,23 @@
 
 /* Navbar Login */
 
-.navbar-login{
+.navbar-login {
     flex-basis: 20%;
     justify-content: flex-end;
     padding: 10px;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: #00008B;
+    padding: 30px;
+}
+
+.jumbotron-container {
+    display: block;
+    background-color: #EE82EE;
+    height: 300px;
+    width: 45%;
+    margin: 0 auto;
 }
