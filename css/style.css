@@ -15,6 +15,10 @@
     border: 2px dashed black;
 }
 
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
 /* Header */
 
 .navbar-header {
@@ -74,5 +78,43 @@
     background-color: #EE82EE;
     height: 300px;
     width: 45%;
+    max-width: 900px;
     margin: 0 auto;
+}
+
+/* Sezione Principale */
+
+.section-bg-white{
+    background-color: #FFFFFF;
+    padding: 30px;
+}
+
+.section-bg-gray{
+    background-color: #D3D3D3;
+    padding: 30px;
+}
+
+.container{
+    height: 400px;
+    width: 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bg-lightblue{
+    background-color: #1E90FF;
+    flex-basis: 60%;
+}
+
+.bg-pink{
+    background-color: #FFC0CB;
+    flex-basis: 40%;
+}
+
+.heigt-600{
+    height: 600px;
+}
+
+.bg-green{
+    background-color: #228B22;
 }
