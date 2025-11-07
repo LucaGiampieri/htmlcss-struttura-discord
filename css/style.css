@@ -1,6 +1,64 @@
 /* CSS Reset */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Grnerics */
+
+.flex {
+    display: flex;
+}
+
+.border {
+    border: 2px dashed black;
+}
+
+/* Header */
+
+.header {
+    background-color: #ADD8E6;
+    padding: 15px;
+
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: #DAA520;
+    margin: 0 auto;
+    width: 60%;
+    max-width: 1080px;
+   
+}
+
+/* Navbar Logo */
+
+.navbar-logo {
+    flex-basis: 20%;
+    padding: 10px;
+}
+
+/* Navbar Link */
+
+.navbar-link {
+    height: 100%;
+    flex-grow: 1;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.navbar-link-text {
+    text-decoration: none;
+    color: black;
+}
+
+/* Navbar Login */
+
+.navbar-login{
+    flex-basis: 20%;
+    justify-content: flex-end;
+    padding: 10px;
 }
